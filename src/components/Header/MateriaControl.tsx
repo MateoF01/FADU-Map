@@ -65,10 +65,10 @@ const NumberStepperProps = {
 // Botonera para cambiar la nota y el cuatri de la materia seleccionada
 const MateriaControl = () => {
   const { fiubaRepos, logged } = React.useContext(UserContext);
-
+  
   const { getNode, aprobar, displayedNode, desaprobar, cursando } =
-    React.useContext(GraphContext);
-
+  React.useContext(GraphContext);
+  
   const node = React.useMemo(
     () => displayedNode ? getNode(displayedNode) : undefined,
     [displayedNode, getNode],
@@ -77,10 +77,11 @@ const MateriaControl = () => {
     () =>
       node && fiubaRepos.find((materia) =>
         materia.codigos.includes(node.id.replace(".", "")),
-      ),
-    [fiubaRepos, node],
-  );
+  ),
+  [fiubaRepos, node],
+);
 
+console.log("LLEGUE ACA")
   return (
     displayedNode &&
     logged &&

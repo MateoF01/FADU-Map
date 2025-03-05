@@ -141,7 +141,9 @@ class Node implements NodeType {
     for (let id of from) {
       const m = getNode(id);
       if (m) {
-        todoAprobado = todoAprobado && m.aprobada;
+        console.log("Node padre: ", m)
+        todoAprobado = todoAprobado && ( m.aprobada || m.group === "En Final");
+
       }
     }
     if (this.requiere) {
