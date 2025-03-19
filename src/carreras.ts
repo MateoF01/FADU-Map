@@ -150,6 +150,28 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
+    id: "arquitectura",
+    link: "https://fi.uba.ar/grado/carreras/ingenieria-en-agrimensura/plan-de-estudios",
+    ano: 2006,
+    graph: require("./data/arquitectura-2020.json"),
+    finDeCarrera: [
+      { id: "tesis", materia: "70.00" },
+      { id: "tpp", materia: "70.99" },
+    ],
+    creditos: {
+      total: 246,
+      checkbox: [
+        {
+          nombre: "Estadía Supervisada de al menos 200 horas",
+          nombrecorto: "Estadía",
+          bg: COLORS.habilitadas[50],
+          color: "habilitadas",
+        },
+      ],
+      electivas: { tesis: 12, tpp: 18 },
+    },
+  },
+  {
     id: "agrimensura-2020",
     link: "https://fi.uba.ar/grado/carreras/ingenieria-en-agrimensura/plan-de-estudios",
     ano: 2020,
@@ -724,5 +746,11 @@ export const PLANES = [
     nombre: "Licenciatura en Análisis de Sistemas",
     nombrecorto: "Sistemas",
     planes: ["sistemasviejo", "sistemas"],
+  },
+
+  {
+    nombre: "Arquitectura",
+    nombrecorto: "Arquitectura",
+    planes: ["arquitectura-2020" , "arquitectura"],
   },
 ];

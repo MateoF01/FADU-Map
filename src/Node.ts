@@ -27,6 +27,9 @@ function breakWords(string: string) {
 }
 
 class Node implements NodeType {
+  correlativasFinal: string;
+  correlativasCursadaAprobadas: string;
+  correlativasCursadaRegulares: string; 
   aprobada: boolean;
   categoria: string;
   cuatrimestre: number | undefined;
@@ -49,6 +52,13 @@ class Node implements NodeType {
   // Hay varios atributos propios ('categoria', 'cuatrimestre') => Probablemente todos los que estan en español
   // Hay atributos de vis.js que determinan muchas cosas del network => Probablemente todos los que estan en ingles
   constructor(node: UserType.MateriaJSON) {
+
+    //MANEJO DE CORRELATIVAS FADU
+    this.correlativasFinal = node.correlativasFinal
+    this.correlativasCursadaAprobadas = node.correlativasCursadaAprobadas
+    this.correlativasCursadaRegulares = node.correlativasCursadaRegulares
+
+
     // Guardamos una referencia al nodo mismo para poder manipularlo desde afuera
     // (porque cuando llenamos el grafo, vis.js hace lo que quiere con nuestra estructura de datos)
     this.nodeRef = this;
@@ -133,15 +143,30 @@ class Node implements NodeType {
   // Nota: que se consideren o no los creditos del CBC para esto
   //  es MUY poco claro en todos los planes de FIUBA, y todos varian,
   //  asi que puede no ser 100% fiel a la realidad
+
+
+  //Una materia de FADU está habilitada si las correlativasCursada se cumplen
+  // Las correlativas cursada pueden implicar haber APROBADO una materia con su final (Aprobadas)
+  // O haber aprobado la cursada, osea estar En Final (Regulares) 
+
+  //isHabilitada nos va a decir si esta habilitada para cursar. Entonces en mi actual tengo que fijarme 
+  // que Aprobadas y Regulares necesito de mis nodos padres
+
   isHabilitada(ctx: GraphType.Info) {
     const { getters, getNode, creditos } = ctx;
     const { creditosTotales, creditosCBC } = creditos;
+
     const from = getters.NodesFrom(this.id);
+
     let todoAprobado = true;
+
     for (let id of from) {
       const m = getNode(id);
       if (m) {
         console.log("Node padre: ", m)
+        
+
+
         todoAprobado = todoAprobado && ( m.aprobada || m.group === "En Final");
 
       }

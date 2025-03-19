@@ -156,6 +156,40 @@ const Graph = (userContext: UserType.Context): GraphType.Context => {
             smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
           });
         });
+      
+      if (n.correlativasFinal)
+        n.correlativasFinal.split("-").forEach((c) => {
+          e.push({
+            from: c,
+            to: n.id,
+            smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
+          });
+        });
+      
+
+      if (n.correlativasCursadaAprobadas)
+      n.correlativasCursadaAprobadas.split("-").forEach((c) => {
+        e.push({
+          from: c,
+          to: n.id,
+          dashes: true, // Línea punteada
+          smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
+        });
+      });
+    
+
+      if (n.correlativasCursadaRegulares)
+        n.correlativasCursadaRegulares.split("-").forEach((c) => {
+          e.push({
+            from: c,
+            to: n.id,
+            dashes: true, // Línea punteada
+            smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
+          });
+        });
+      
+
+
       if (n.requiere) e.push({ from: "CBC", to: n.id, color: "transparent" });
       return e;
     });

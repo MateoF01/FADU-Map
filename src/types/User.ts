@@ -42,6 +42,9 @@ export namespace UserType {
     correlativas: string | undefined;
     requiere: number | undefined;
     requiereCBC: boolean | undefined;
+    correlativasFinal: string;
+    correlativasCursadaAprobadas: string;
+    correlativasCursadaRegulares: string;
   }
   
   export interface Electivas {
