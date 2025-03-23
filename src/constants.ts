@@ -141,6 +141,11 @@ export const GRUPOS = {
     size: 60,
     ctxRenderer: drawFinDeCarrera,
   },
+  "Materias Obligatorias Anuales": {
+    color: COLORS.obligatorias[400],
+    shape: "rectangle",
+    size: 15,
+  },
   ...CARRERAS.filter((c): c is UserType.Carrera & {orientaciones: UserType.Orientacion[]} => c.orientaciones !== undefined)
     .flatMap((c) => c.orientaciones)
     .reduce<{ [key: string]: UserType.Orientacion }>(function (map, obj) {

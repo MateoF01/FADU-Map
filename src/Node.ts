@@ -9,6 +9,7 @@ const ALWAYS_SHOW = [
   "Materias Obligatorias",
   "CBC",
   "Fin de Carrera (Obligatorio)",
+  "Materias Obligatorias Anuales"
 ];
 
 /**

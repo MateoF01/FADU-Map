@@ -112,7 +112,7 @@
     "correlativasCursadaAprobadas": "",
     "correlativasCursadaRegulares": "",
     "categoria": "Materias Obligatorias",
-    "level": 2
+    "level": 1
   },
   {
     "id": "ITC",
@@ -186,7 +186,7 @@
     "correlativasCursadaAprobadas": "",
     "correlativasCursadaRegulares": "ITC-ITE-MAT2",
     "categoria": "Materias Obligatorias",
-    "level": 4
+    "level": 3
   },
   {
     "id": "I1",
@@ -249,7 +249,7 @@
     "correlativasCursadaAprobadas": "A1-M1-RA",
     "correlativasCursadaRegulares": "",
     "categoria": "Materias Obligatorias",
-    "level": 6
+    "level": 5
   },
   {
     "id": "C2",
@@ -259,7 +259,7 @@
     "correlativasCursadaAprobadas": "A1-SRG",
     "correlativasCursadaRegulares": "C1",
     "categoria": "Materias Obligatorias",
-    "level": 6
+    "level": 5
   },
   {
     "id": "I2",
@@ -322,7 +322,7 @@
     "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A2-M1-RA",
     "correlativasCursadaRegulares": "H2",
     "categoria": "Materias Obligatorias",
-    "level": 8
+    "level": 7
   },
   {
     "id": "PU",

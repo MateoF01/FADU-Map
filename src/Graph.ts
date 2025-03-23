@@ -1004,6 +1004,7 @@ const Graph = (userContext: UserType.Context): GraphType.Context => {
                 c !== "*CBC" &&
                 c !== "Materias Obligatorias" &&
                 c !== "Fin de Carrera (Obligatorio)" &&
+                c !== "Materias Obligatorias Anuales" &&
                 c !== "Fin de Carrera",
             )
         : [];
