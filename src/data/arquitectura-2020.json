@@ -284,266 +284,117 @@
 
 
 
-
-
-
-
-  
   {
-    "id": "70.17",
-    "materia": "Geodesia III",
-    "creditos": 4,
-    "correlativasFinal": "62.03-70.07-70.13",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Obligatorias",
-    "level": 6
-  },
-  {
-    "id": "70.16",
-    "materia": "Fotogrametría II",
-    "creditos": 4,
-    "correlativasFinal": "70.14-70.07",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Obligatorias",
-    "level": 6
-  },
-  {
-    "id": "70.36",
-    "materia": "Sistemas Cartográficos y Teledetección",
-    "creditos": 4,
-    "correlativasFinal": "61.06-70.14-70.15",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Obligatorias",
-    "level": 6
-  },
-  {
-    "id": "71.24",
-    "materia": "Agrimensura Legal II",
-    "creditos": 4,
-    "correlativasFinal": "71.02",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Obligatorias",
-    "level": 6
-  },
-  {
-    "id": "70.35",
-    "materia": "Topografía IV",
+    "id": "A4",
+    "materia": "Arquitectura 4 (Anual)",
     "creditos": 8,
-    "correlativasFinal": "70.34-70.13",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Obligatorias",
-    "level": 6
-  },
-  {
-    "id": "70.32",
-    "materia": "Sistemas de Información Geográfica",
-    "creditos": 4,
-    "correlativasFinal": "70.04-70.15-70.36",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
+    "correlativasFinal": "",
+    "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A3-M2-MP",
+    "correlativasCursadaRegulares": "E1-I2-C2-H1",
     "categoria": "Materias Obligatorias",
     "level": 7
   },
   {
-    "id": "70.31",
-    "materia": "Información Rural",
+    "id": "E3",
+    "materia": "Estructuras 3 (Anual)",
     "creditos": 4,
-    "correlativasFinal": "71.23-71.24-70.36",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
+    "correlativasFinal": "E2-A2-E1-C1-H1-RA-I1-M1",
+    "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A2-M1-RA",
+    "correlativasCursadaRegulares": "E2",
     "categoria": "Materias Obligatorias",
     "level": 7
   },
   {
-    "id": "70.27",
-    "materia": "Catastro",
+    "id": "C3",
+    "materia": "Construcciones 3",
     "creditos": 4,
-    "correlativasFinal": "70.16-71.23-71.24",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
+    "correlativasFinal": "C2-A2-E1-C1-H1-RA-I1-M1",
+    "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A2-M1-RA",
+    "correlativasCursadaRegulares": "C2",
     "categoria": "Materias Obligatorias",
     "level": 7
   },
   {
-    "id": "71.30",
-    "materia": "Agrimensura Legal III",
+    "id": "H3",
+    "materia": "Historia 3",
     "creditos": 4,
-    "correlativasFinal": "71.24",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Obligatorias",
-    "level": 7
-  },
-  {
-    "id": "70.37",
-    "materia": "Levantamiento y Práctica Profesional I",
-    "creditos": 6,
-    "correlativasFinal": "70.35-71.24",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Obligatorias",
-    "level": 7
-  },
-  {
-    "id": "70.39",
-    "materia": "Valuaciones",
-    "creditos": 4,
-    "correlativasFinal": "71.23-70.27-70.33",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
+    "correlativasFinal": "H2-A2-E1-C1-H1-RA-I1-M1",
+    "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A2-M1-RA",
+    "correlativasCursadaRegulares": "H2",
     "categoria": "Materias Obligatorias",
     "level": 8
   },
   {
-    "id": "70.38",
-    "materia": "Levantamiento y Práctica Profesional II",
-    "creditos": 6,
-    "correlativasFinal": "70.33-70.37",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
+    "id": "PU",
+    "materia": "Planificación Urbana (Anual)",
+    "creditos": 4,
+    "correlativasFinal": "H2-A2-E1-C1-H1-RA-I1-M1",
+    "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A2-M1-RA",
+    "correlativasCursadaRegulares": "H1-E1-I1",
+    "categoria": "Materias Obligatorias",
+    "level": 7
+  },
+  {
+    "id": "I3",
+    "materia": "Instalaciones 3",
+    "creditos": 4,
+    "correlativasFinal": "I2-A2-E1-C1-H1-RA-I1-M1",
+    "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A2-M1-RA",
+    "correlativasCursadaRegulares": "I2-C2",
     "categoria": "Materias Obligatorias",
     "level": 8
   },
   {
-    "id": "71.52",
-    "materia": "Agrimensura Legal IV",
-    "creditos": 6,
-    "correlativasFinal": "71.30",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
+    "id": "T",
+    "materia": "Teoría de la Arquitectura",
+    "creditos": 4,
+    "correlativasFinal": "",
+    "correlativasCursadaAprobadas": "IAC-ITC-ITE-FAA-MAT2-A3-M2-MP",
+    "correlativasCursadaRegulares": "H1-E1-I1-C1",
     "categoria": "Materias Obligatorias",
     "level": 8
   },
-  {
-    "id": "70.24",
-    "materia": "Levantamientos Hidrográficos",
-    "creditos": 4,
-    "correlativasFinal": "70.09",
 
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "70.26",
-    "materia": "Hidráulica Agrícola y Saneamiento",
-    "creditos": 4,
-    "correlativasFinal": "70.09",
 
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "77.02",
-    "materia": "Introducción a la Ingeniería Ambiental",
-    "creditos": 4,
-    "requiere": 100,
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "68.11",
-    "materia": "Ordenamiento Rural y Urbano",
-    "creditos": 4,
-    "correlativasFinal": "68.06-70.27",
 
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
+  {
+    "id": "PUR",
+    "materia": "Proyecto Urbano",
+    "creditos": 8,
+    "correlativasFinal": "",
+    "correlativasCursadaAprobadas": "A4-H1-C1-E1-I1-T",
+    "correlativasCursadaRegulares": "H3-C3-E3-I3",
+    "categoria": "Materias Obligatorias",
+    "level": 9
   },
   {
-    "id": "70.40",
-    "materia": "Geología Aplicada",
+    "id": "PA",
+    "materia": "Proyecto Arquitectónico",
+    "creditos": 8,
+    "correlativasFinal": "",
+    "correlativasCursadaAprobadas": "PUR",
+    "correlativasCursadaRegulares": "",
+    "categoria": "Materias Obligatorias",
+    "level": 10
+  },
+  {
+    "id": "DYLO",
+    "materia": "Dirección y Legislación de Obra (Anual)",
     "creditos": 4,
-    "correlativasFinal": "62.03-70.06",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
+    "correlativasFinal": "C3-I3-A3-E2-C2-H2-MP-I2-M2",
+    "correlativasCursadaAprobadas": "A4-H1-C1-E1-I1",
+    "correlativasCursadaRegulares": "H2-C2-E2-I2",
+    "categoria": "Materias Obligatorias",
+    "level": 9
   },
   {
-    "id": "70.41",
-    "materia": "Oceanografía Física",
+    "id": "PPA",
+    "materia": "Práctica Profesional Asistida",
     "creditos": 4,
-    "correlativasFinal": "61.03-62.03",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "70.42",
-    "materia": "Sistemas de Información Geográfica II",
-    "creditos": 4,
-    "correlativasFinal": "70.32",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "70.43",
-    "materia": "Topografía De Obra",
-    "creditos": 4,
-    "correlativasFinal": "70.12-70.09",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "70.44",
-    "materia": "Dibujo Topográfico II",
-    "creditos": 4,
-    "correlativasFinal": "70.04",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "78.xx",
-    "materia": "Idioma",
-    "creditos": 4,
-    "correlativasFinal": "CBC",
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Materias Electivas"
-  },
-  {
-    "id": "70.00",
-    "materia": "Tesis de Ingeniería en Agrimensura",
-    "creditos": 18,
-    "requiere": 140,
-    "categoria": "Fin de Carrera"
-  },
-  {
-    "id": "70.99",
-    "materia": "Trabajo Profesional de la Ingeniería en Agrimensura",
-    "creditos": 12,
-    "requiere": 140,
-
-    "correlativasCursadaAprobadas": "ITC",
-    "correlativasCursadaRegulares": "ITE",
-    "categoria": "Fin de Carrera"
+    "correlativasFinal": "",
+    "correlativasCursadaAprobadas": "",
+    "correlativasCursadaRegulares": "A3-E2-C2-H2-MP-I2-M2",
+    "categoria": "Materias Obligatorias",
+    "level": 10
   }
 ]

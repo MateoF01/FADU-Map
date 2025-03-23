@@ -156,7 +156,7 @@ const Graph = (userContext: UserType.Context): GraphType.Context => {
             smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
           });
         });
-      
+      /*
       if (n.correlativasFinal)
         n.correlativasFinal.split("-").forEach((c) => {
           e.push({
@@ -165,15 +165,18 @@ const Graph = (userContext: UserType.Context): GraphType.Context => {
             smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
           });
         });
+      */
       
-
       if (n.correlativasCursadaAprobadas)
       n.correlativasCursadaAprobadas.split("-").forEach((c) => {
         e.push({
           from: c,
           to: n.id,
-          dashes: true, // Línea punteada
+          color: "rgba(0,0,0,0)", // Línea completamente transparente
+          dashes: false, // Mantiene el estilo punteado, aunque invisible
           smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
+          arrows: { to: { enabled: true, color: "rgba(0,0,0,0)" } }, // Flecha invisible
+          shadow: false, // Asegura que no haya sombra visible
         });
       });
     
@@ -183,8 +186,11 @@ const Graph = (userContext: UserType.Context): GraphType.Context => {
           e.push({
             from: c,
             to: n.id,
-            dashes: true, // Línea punteada
+            color: "rgba(0,0,0,0)", // Línea completamente transparente
+            dashes: true, // Mantiene el estilo punteado, aunque invisible
             smooth: { enabled: true, type: "curvedCW", roundness: 0.1 },
+            arrows: { to: { enabled: true, color: "rgba(0,0,0,0)" } }, // Flecha invisible
+            shadow: false, // Asegura que no haya sombra visible
           });
         });
       
